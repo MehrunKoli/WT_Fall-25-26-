@@ -1,0 +1,26 @@
+body{
+    margin: 0 auto;
+    height: 100vh;
+    background-color: white;
+}
+
+form{
+    background-color: azure;
+    margin: 10px auto;
+    width: 350px;
+    padding: 20px;
+    align-items: center;
+}
+
+#reg{
+    background-color: purple;
+    color: white;
+}
+
+#heading1{
+    color: purple;
+}
+
+#addi{
+    color: purple;
+}

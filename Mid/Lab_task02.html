@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Task02</title>
+    <link rel="stylesheet" href="Lab_task02.css"> 
+</head>
+<body>
+    <main class = "container">
+        <section id="registration-selection">
+            <h1> <center>Student Registration </center></h1>
+          <form id="signup-form">
+            <label for="fullname">Full Name</label> <br>
+              <input id="fullname" type="text" placeholder="Write your Name">
+             <br>
+            <label for="email">E-Mail</label> <br>
+             <input id="email" type="email" placeholder="write your E-mail">
+                <br>
+            <label for="password"> Password </label> <br>
+             <input id="password" type="password">
+              <br>
+            <label for="confirmpassword">Confirm Password</label> <br>
+             <input id="confirmpassword" type="password">
+                <br> <br>
+            <button type="button" onclick="submitForm()" id="signup-btn">Register</button>
+            
+        
+          </form>
+          <p id="message"></p>
+        </section>
+
+        <section id="course-selection">
+          <h1> <center>Course Selection </center></h1>
+          <form action="course.php">
+          <label for="coursename">Course Name</label> <br>
+          <input id="coursename" type="text" placeholder="Type your Course Name"> <br> <br>
+          <button id="addCouseBtn">Add Course</button>
+
+          <ul id="courseList"></ul>
+          <p id="no-courses">No courses added yet</p>
+          </form>
+        </section>
+    </main>
+    <script src="Lab_task02.js"></script>
+</body>
+</html>
